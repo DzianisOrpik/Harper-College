@@ -1,0 +1,454 @@
+
+
+WEB Accessibility and Usability
+
+Module 1
+
+
+
+What is Web Accessibility?
+https://www.w3.org/WAI/fundamentals/accessibility-intro/#what
+
+
+
+
+Accessible Web Design Video
+
+Watch the 14-minute video, 
+
+https://www.washington.edu/doit/videos/index.php?vid=35, 
+
+which introduces many topics related to accessibility that we will explore during this semester.
+
+
+
+
+
+Module 2
+
+
+
+https://www.w3.org/WAI/people-use-web/
+
+
+Screen Readers
+Download and install a free demo or trial of ONE of the screen reader applications listed below. Then, explore a few of your favorite web sites using the screen reader application.
+
+JAWS
+http://www.freedomscientific.com/Downloads/JAWS
+http://webaim.org/resources/shortcuts/jaws
+
+Open Source NVDA NonVisual Desktop Access
+http://www.nvda-project.org/
+
+Window-Eyes
+http://www.gwmicro.com/Window-Eyes/Demo/
+Fire Vox - Screen Reader Extension for Firefox
+http://www.456bereastreet.com/archive/200809/turn_firefox_into_a_screen_reader_with_fire_vox/
+https://addons.mozilla.org/en-US/firefox/addon/reader/
+
+FOR MAC USERS:
+VoiceOver and Safari: Screen reading on the Mac
+https://webaim.org/articles/voiceover/
+
+
+
+
+
+Browser Accessibility
+Current Firefox, Internet Explorer, and Google Chrome browsers offer user customization features.For example, Firefox's View menu offers options options to change the display of the text size (even text configured using pixels!) and the style sheet.
+
+
+
+Web Resources on Browser Accessibility
+
+Firefox Accessibility
+https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we
+
+
+Microsoft Edge Accessibility 
+https://docs.microsoft.com/en-us/microsoft-edge/accessibility
+
+Google Chrome Accessibility
+http://www.paciellogroup.com/blog/?p=92
+
+
+Safari Accessibility 
+https://support.apple.com/accessibility
+
+
+
+http://webaim.org/articles/nvda
+http://webaim.org/simulations/lowvision
+
+
+
+
+
+Module 3
+
+
+Readings
+Perceivable
+
+https://www.w3.org/TR/WCAG21/#perceivable
+
+Operable
+
+https://www.w3.org/TR/WCAG21/#operable
+
+Understandable
+
+https://www.w3.org/TR/WCAG21/#understandable
+
+Robust
+
+https://www.w3.org/TR/WCAG21/#robust
+
+
+
+Section508 -  Create Accessible Digital Products
+
+https://www.section508.gov/create 
+
+
+
+New in WCAG 2.1 
+
+https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/
+
+
+IITAA  2.0 Standards 
+
+https://www.dhs.state.il.us/page.aspx?item=96985
+
+
+
+
+Module 4
+
+
+
+Readings
+Page Structure Content
+
+https://www.w3.org/WAI/tutorials/page-structure/
+
+Headings
+
+https://www.w3.org/WAI/tutorials/page-structure/headings/
+
+Navigation
+
+https://www.w3.org/WAI/tutorials/menus/
+
+Images
+
+https://www.w3.org/WAI/tutorials/images/
+
+Tables
+
+https://www.w3.org/WAI/tutorials/tables/
+
+Forms
+
+https://www.w3.org/WAI/tutorials/forms/
+
+
+
+
+Module 5
+
+
+Accessibility Testing Tools
+The first step towards an accessible web page is to follow W3C standards:
+
+Use the W3C Validator at http://validator.w3.org/ to check for HTML syntax errors.
+Use the W3C Validator at http://jigsaw.w3.org/css-validator/ to check for CSS syntax errors. 
+
+The next step ...
+
+While automated accessibility testing tools can be useful in pointing out potential issues, there is a huge human element when testing for accessibility. For example, just because an image has alt text, doesn't mean the alt text description is actually useful to a human being -- that takes a human to judge. We'll get into more involved accessibility evaluation later on (in Module 11). However, now is a good time to get familiar with the tools below.
+
+Test one of your favorite web sites in each of these online accessibility testing tools:
+
+Usablenet Automated Accessibility Testing Tool
+https://usablenet.com/automated-accessibility-testing-tool
+
+Scroll down and select the check box for WCAG 2.1 (Level A).
+
+Wave from WebAIM
+http://wave.webaim.org
+
+The report is the web page displayed with visual icons with interactive features that explain errors. 
+
+FAE -- Functional Accessibility Evaluator 2.0 from UIUC
+http://fae.cita.uiuc.edu
+
+Content Folder
+Screen Reader
+If you haven't already, you'll want to download and install a screen reader application.
+Item
+Browser Add-ons/Extensions for Accessibility Testing
+Consider downloading and installing one or more of these browser extensions:
+
+Web Accessibility Microsoft Edge
+https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/elements/accessibility
+
+Wave Accessibility Extension for Chrome
+https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+
+Wave Accessibility Extension for Firefox 
+https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/
+
+Accessibility extension for Safari
+http://pauljadam.com/extension.html
+
+
+
+Module 6
+
+
+Color-blindness Simulation
+Use one of the resources below to explore how your favorite website looks to individuals with color-deficiency issues.
+
+Colorblind Web Page Filter
+https://www.toptal.com/designers/colorfilter/
+
+Color Blindness Simulator
+https://www.color-blindness.com/coblis-color-blindness-simulator/
+Item
+Color Contrast Checkers
+Use one of the resources below to explore if your favorite website uses with adequate contrast.
+WCAG 2.0 Level A -  Color Contrast Ratio  of 3:1
+WCAG 2.0 Level AA - Color Contrast Ratio of 4.5:1
+WCAG 2.0 Level AAA - Color Contrast Ratio of 7:1 
+
+Contrast Checker
+https://webaim.org/resources/linkcontrastchecker/
+
+
+
+Module 7
+
+
+
+Accessible Forms Using WCAG 2.0
+https://www.w3.org/WAI/tutorials/forms/ 
+Screen Reader Form Accessibility
+https://www.youtube.com/watch?v=N6U0kFyvFy8
+Keyboard Accessibility
+https://webaim.org/techniques/keyboard/
+
+
+
+
+Item
+Best Practices For Forms Design
+Reference for Best Practices for Form Design
+
+https://conversionxl.com/blog/form-design-best-practices/
+
+Item
+Accessible Inline Frames
+Inline Frame (iframe) Accessibility
+http://accessibility.psu.edu/frames/
+
+
+
+
+Module 8
+
+
+Readings
+The following articles are informational and should provide you with a general overview of accessibility issues related to scripting and rich internet applications (RIAs).  We will not be doing any scripting or work with ARIA in this WEB 210 course.
+
+Creating Accessible JavaScript
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+Usable and Accessible Form Validation and Error Recovery
+https://www.w3.org/WAI/tutorials/forms/notifications/
+
+
+
+
+Module 10
+
+Readings about Accessible Multimedia
+Multimedia Alternatives
+https://www.w3.org/WAI/test-evaluate/preliminary/#media
+Captions
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html
+Audio Descriptions or Media Alternatives
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html
+YouTube Captioning
+Automatic Captions for YouTube Videos
+https://www.blog.google/outreach-initiatives/accessibility/accessibility-team-helping-make-our-products-work-everyone/
+
+Readings about Accessible PDFs
+Accessible Documents in HTML, Word, and  PDF
+Interesting comparison of accessible document formats.
+https://www.washington.edu/accessibility/documents/
+Adobe TV: Creating an Accessible PDF in InDesign 
+https://tv.adobe.com/watch/accessibility-adobe/preparing-indesign-files-for-accessibility
+
+
+
+
+Module 11
+
+
+
+Readings
+The following articles are informational and should provide you with a general overview of accessibility issues related to ARIA -- focus on the function of the role attribute as you read the resources below. We will not be doing any scripting in this WEB 210 course.
+
+Overview of Aria  
+https://uxplanet.org/improve-the-accessibility-of-your-designs-with-aria-4595d8ea060f
+Rich Internet Application  Accessibility 
+https://www.w3.org/TR/wai-aria-1.1/#intro_ria_accessibility
+
+
+
+ARIA Landmark Roles
+application ( an area of a web page that functions as a web application instead of providing static content)
+banner (an area of a web page that contains mostly site-oriented content  -- like a logo -- rather than page-specific content)
+complementary (a supporting part of the web page document, designed to be complementary to the main content )
+contentinfo (an area that contains information such as copyright and/or hyperlinks to privacy statements). 
+form (an area of a web page that function together as a form)
+main (the main content of a document)
+navigation (a collection of navigation elements)
+search (an area of a web page that provides search functionality)
+
+How to use Roles
+https://www.w3.org/TR/wai-aria-1.1/#usage_intro
+
+https://www.youtube.com/watch?v=vAAzdi1xuUY
+
+
+
+Module 12
+
+
+
+Strategies for Accessibility Testing
+Evaluating Web Sites for Accessibility (Overview)
+http://www.w3.org/WAI/eval/preliminary.html
+
+Note: Before testing web pages for accessibility, also verify that they comply with web standards: HTML Validation (http://validator.w3.org/) and CSS Validation (http://jigsaw.w3.org/css-validator/).
+
+
+No single tool can test all Web standards automatically. 
+Verification requires use of automated testing tools, assistive technology and manual checks.
+
+Use one of the checklists below as a "road map" — complete each indicated test. 
+
+WebAim WCAG 2.0 Checklist
+http://www.webaim.org/standards/wcag/checklist
+
+IITAA Testing Checklist
+http://www.dhs.state.il.us/accessibility/references/iitaa-testing-checklist.html
+
+IITAA condensed checklist (this one is a bit more readable)
+http://www.dhs.state.il.us/IITAA/IITAAWebImplementationGuidelines.html
+Run an automated checking tool (see the Automated Accessibility Testing Tools in Module 5 and fix any additional errors identified in reports.
+
+Listen with assistive technology such as JAWS or Window-Eyes to ensure the site is accessible and usable.
+
+Check login pages, templates, navigation.
+Check pages with data tables, forms and multimedia.
+Verify keyboard access
+Tab to links and controls (e.g. form input fields)
+JavaScript keyboard access
+
+Optional: Test with a text-only browser (or browser with images off)
+
+Optional: Test with a color-blindness simulation
+
+Optional: Test for appropriate reading level
+
+Complete additional manual checks as needed for some standards/checkpoints
+
+JavaScript
+Color
+Multimedia
+
+
+
+Module 13
+
+
+Readings
+Web Readings
+
+Usability 101: Introduction to Usability
+https://www.nngroup.com/articles/usability-101-introduction-to-usability/
+
+10 Usability Lessons from Steve Krug
+http://www.uxbooth.com/articles/10-usability-lessons-from-steve-krug%E2%80%99s-dont-make-me-think/
+
+10 Useful Usability Findings and Guidelines
+http://www.smashingmagazine.com/2009/09/24/10-useful-usability-findings-and-guidelines/
+
+
+
+Web page visitors scan web pages instead of reading them carefully word-for-word. 
+
+Jakob Nielsen: F-shaped Pattern for Reading Web Content
+https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+
+Excerpt from Steve Krug's book, "Don't Make Me Think"
+http://www.sensible.com/chapter.
+
+
+
+Module 14
+
+
+
+Readings
+Web Readings
+
+A Comprehensive Guide to User Testing
+https://www.smashingmagazine.com/2018/03/guide-user-testing/
+
+25 Minute Video Demo of a Usability Test by Steve Krug
+As you watch the video, list the three most serious usability problems and compare them to Steve Krug's list
+https://www.youtube.com/watch?v=QckIzHC99Xc
+
+Usability test scripts, consent form, checklists, etc.
+https://www.usability.gov/how-to-and-tools/resources/templates.html
+
+
+
+Module 15
+
+
+
+Readings
+8-Step Model of a Reform 
+
+Introduction: Overview of a Model of Reform
+http://webaim.org/articles/implementation/
+
+Step 1: Gather Baseline Information
+http://webaim.org/articles/implementation/baseline
+
+Step 2: Gain Top Level Support
+http://webaim.org/articles/implementation/toplevel
+
+Step 3: Organize a Web Accessibility Committee
+http://webaim.org/articles/implementation/committee
+
+Step 4: Define a Standard
+http://webaim.org/articles/implementation/define
+
+Step 5: Create an Implementation Plan
+http://webaim.org/articles/implementation/plan
+
+Step 6: Provide Training and Technical Support
+http://webaim.org/articles/implementation/support
+
+Step 7: Monitor Conformance
+http://webaim.org/articles/implementation/monitor
+
+Step 8: Remain Flexible Through the Changes
+http://webaim.org/articles/implementation/flexible
