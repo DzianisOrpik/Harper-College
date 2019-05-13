@@ -1,0 +1,38 @@
+WEB 180 WEB MULTIMEDIA
+
+https://www.youtube.com/watch?v=sArQZnpNY5s
+
+https://www.youtube.com/watch?v=iMfMvdJyeSA
+
+https://www.textures.com/
+
+
+
+Links to microinteractions
+These articles will be the basis for our next quiz, make sure to read through all of them and take notes of the high points.
+
+https://blog.proto.io/secret-killer-ux-design-microinteractions/
+http://microinteractions.com/microinteractions-quick-reference/
+https://uxdesign.cc/micro-interactions-why-when-and-how-to-use-them-to-boost-the-ux-17094b3baaa0
+https://www.digitalartsonline.co.uk/features/interactive-design/best-animation-software-apps-for-ui-ux-design/
+
+
+https://www.pierpont.edu/PierpontIdentityandGraphicStandards.pdf
+
+https://blog.hubspot.com/marketing/examples-brand-style-guides
+
+https://designshack.net/articles/graphics/an-introduction-to-animation-in-web-design/
+
+and we will eventually need this--
+
+https://www.adobeexchange.com/creativecloud.details.12557.html
+
+a couple of micro-interactions to get you thinking
+
+https://premium.wpmudev.org/blog/microinteractions-wordpress-ux/
+
+
+
+In class exercise - Shape repeater. Found at https://www.youtube.com/watch?v=wOZwzLgJw9o  
+
+https://www.youtube.com/watch?v=iLd-5x5KhyA
