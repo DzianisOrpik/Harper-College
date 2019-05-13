@@ -1,0 +1,195 @@
+body {
+				
+	font-family: Verdana, Arial, sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+    background-color: #FAF0E6;	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	background-image: url(images/Logo.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	height: 450px;
+
+}
+header {
+
+	padding-top: 0%;
+	font-weight: 150px;
+	font-size: 5em;
+	text-align: center;
+	font-family: oblique, serif;	
+	color: white;	
+}
+
+.nav {
+	
+    text-align: center;
+    padding-top: 0%;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+
+}
+
+.nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+
+}
+
+.nav li:hover ul {
+display: block;
+padding-top: 10px;
+}
+
+.nav li:hover li {
+display: block;
+padding-top: 35px;
+}
+
+.nav a {
+	text-decoration: none;
+	border-style: outset;
+	padding: 10px 15px 10px 15px;
+	color: white;
+
+}
+
+		    nav a:visited {
+		   	color: white;
+		   }
+
+		   nav a:hover{
+		   	color: #4169E1;
+		   	border: inset 2px;
+		   	border-style: inset;
+		   	border-color: #4169E1;
+		   }
+
+
+
+
+
+
+.text {
+	
+	color: black;
+	text-align: center;
+	
+	
+}
+
+.BackContent {
+	background-image: url(images/BackContent.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+
+}
+
+.imajes {
+	float: left;
+	width: 300px;
+	height: 300px;
+	padding-top: 20px;
+	width="400px" height="220px"
+}
+
+#AquaFIT { width: 400px; height: 220px;}
+#CardioJam { width: 400px; height: 220px;}
+#Cycle { width: 400px; height: 220px;}
+#Yoga { width: 400px; height: 220px;}
+#BodyCon { width: 400px; height: 220px;}
+
+.content {
+	float: right;
+	width: 1000px;
+	height: 300px;
+	padding-left: 70px;
+}
+
+.Info {
+	padding-top: 1200px;
+}
+
+ #imgbody {
+ 	
+ 	padding: 5%;
+ 	background-image: url(images/white-brick-wall-background-7.jpg);
+ 	background-repeat: no-repeat;
+	background-size: 100% 100%;
+ }
+
+.leftP {width: 550px; height: 200px; text-align: left; float: left;}
+.rightP {width: 550px; height: 200px; text-align: left; float: right;}
+
+
+
+ 
+ 
+
+footer {
+	
+	text-align: center;
+	background-image: url(images/white-brick-wall-background-7.jpg);
+    
+	font-size: small;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 2em;
+	margin-top: 25em;
+	
+}
+
+footer a {
+	color: #000000;
+}
+
+
+body, header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+
+@media only screen and (max-width:64em) {
+
+body {margin: 0; padding: 0;}
+        main {padding-top: 0; padding-bottom: 0em; padding-left: 1em; padding-right: 1em; margin: 0; font-size: 10%;}
+        nav { width: auto; padding-left: 0em;}
+        nav a { padding: 0,2em; margin-left: 0,3em; width: 23%;}
+        h2 p {padding-left: 2em; padding-right: 2em;}
+        
+        header {font-size: 4em;}
+
+}
+
+@media only screen and (max-width: 37.5em) {
+	.nav a {padding: 5px 3px 5px 3px; }
+	.nav li:hover li { display: block; padding-top: 20px;}
+	header {font-size: 1em;}
+	.main {height: 300px;}
+	.leftP {float: none; width: 100%;}
+	.rightP {float: none; padding-top: 4em; width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+

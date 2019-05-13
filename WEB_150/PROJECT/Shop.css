@@ -1,0 +1,130 @@
+* {box-sizing: border-box;}
+
+body {margin-left: 10%;
+      margin-right: 10%;
+      }
+
+.logo {
+	background-image: url(images/Shop.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 450px;
+}
+
+header {text-align: center;
+        font-size: 5em;
+        color: #A9A9A9;
+}
+
+.main {
+	background-image: url(images/BackMob.jpg);
+	height: 450px;
+}
+
+.nav {
+	margin-top: 3em;
+    text-align: center;
+    padding-top: 0%;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+
+}
+
+.nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+
+}
+
+.nav li:hover ul {
+display: block;
+padding-top: 10px;
+}
+
+.nav li:hover li {
+display: block;
+padding-top: 35px;
+}
+
+.nav a {
+	text-decoration: none;
+	border-style: outset;
+	padding: 10px 15px 10px 15px;
+	background-color: #A9A9A9;
+	
+
+}
+
+		    nav a:visited {
+		   	color: #E0FFFF ;
+		   }
+
+		   nav a:hover{
+		   	color: #4169E1;
+		   	border: inset 2px;
+		   	border-style: inset;
+		   	border-color: #4169E1;
+		   }
+
+
+h3 {text-align: center; padding: 5% 5% 10% 5%; font-size: 2em;}
+h2 {text-align: center;}
+
+.leftside {float: left; width: 450px; height: 450px; }
+
+.rightside {float: right; width: 750px; height: 500px;}
+
+#isp {margin-left: 7em;
+margin-top: 3em;}
+
+#watch {margin-left: 7em;
+margin-top: 3em;}
+
+#sale {font-size: 1.5em; text-align: center;}
+#saler {font-size: 1.5em; text-align: center; color: red;}
+
+#footer {padding-top: 85%; text-align: center;}
+footer a {color: black}
+
+
+
+body, header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+
+
+@media only screen and (max-width:64em) {
+	body {margin:0; padding: 0;}
+	.leftside {float: left; width: 370px; height: 390px; }
+	.rightside {float: right; width: 470px; height: 140px; margin-bottom: 17em;}
+	#isp {margin-left: 5em;}
+	#watch {margin-left: 5em; }
+	#footer {padding-top: 91%;}
+}
+
+
+
+@media only screen and (max-width:37.5em) {
+	.nav a {padding: 5px 3px 5px 3px;  }
+	.nav li:hover li { display: block; padding-top: 20px;}
+	header {font-size: 1em;}
+	.main {height: 300px;}
+	.leftside {float: none; margin-left: 3.5em;}
+	.rightside {float: none; margin-left: 1em;}
+	#footer {padding: 0; margin:0;}
+	
+
+}
+
+
+
+
+

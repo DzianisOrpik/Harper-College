@@ -1,0 +1,123 @@
+* {box-sizing: border-box;}
+
+body {
+				
+	font-family: Verdana, Arial, sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+    background-color: #FAF0E6;	
+}
+
+.main {
+	background-image: url(images/Logo.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	height: 450px;
+}
+header {
+
+	padding-top: 0%;
+	
+	font-size: 5em;
+	text-align: center;
+	font-family: oblique, serif;	
+	color: white;	
+}
+
+.nav {
+	
+    text-align: center;
+    padding-top: 0%;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+
+}
+
+.nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+
+}
+
+.nav li:hover ul {
+display: block;
+padding-top: 10px;
+}
+
+.nav li:hover li {
+display: block;
+padding-top: 35px;
+}
+
+.nav a {
+	text-decoration: none;
+	border-style: outset;
+	padding: 10px 15px 10px 15px;
+	color: white;
+
+}
+
+		    nav a:visited {
+		   	color: white;
+		   }
+
+		   nav a:hover{
+		   	color: #4169E1;
+		   	border: inset 2px;
+		   	border-style: inset;
+		   	border-color: #4169E1;
+		   }
+
+
+
+
+.list {float: left; width: 250px; height: 800px;}
+
+.form {float: right; width: 800px; padding-top: 20%;}
+.form h2 {padding-left: 4em; padding-bottom: 2em;}
+
+
+label {float: left; clear: left; display: block; width: 150px; padding-right: 2px; margin-top: 3px; text-align: right;}
+input {display: block; margin-top: 8px;}
+input[type="submit"] {margin-left: 145px;}
+
+
+footer {padding-top: 100%; text-align: center; font-size: small;}
+footer a {color: black;}
+
+body, header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+
+
+@media only screen and (max-width:64em) {
+	body {margin: 0; padding: 0;}
+	 nav { width: auto; padding-left: 0em;}
+        nav a { padding: 0,2em; margin-left: 0,3em; width: 100%; height: 100% display: block;}
+        .form {float: right; width: 500px; padding-top: 15%;}
+        footer {padding-top: 150%;}
+}
+
+@media only screen and (max-width: 37.5em) {
+	.nav a {padding: 5px 3px 5px 3px; }
+	.nav li:hover li { display: block; padding-top: 20px;}
+	header {font-size: 1em;}
+	.list {text-align: center; float: none; padding-left: 4em; width: 450px; }
+	.main {height: 300px;}
+	 
+	 .form {padding: 27em 0em 5em 3em; float: none; }
+        label {float: left; clear: left; display: block; padding-right: 5px; margin-top: 0px; text-align: right; margin-left: 5px; }
+   
+  
+   footer {padding-top: 0;}
+
+}
+

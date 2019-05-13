@@ -1,0 +1,156 @@
+* {box-sizing: border-box;}
+
+body {
+				
+	font-family: Verdana, Arial, sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+    background-color:  #E0FFFF;	
+}
+
+.main {
+	background-image: url(images/white-brick-wall-background-7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	height: 450px;
+
+}
+header {
+
+	padding-top: 0%;
+	font-weight: 150px;
+	font-size: 5em;
+	text-align: center;
+	font-family: oblique, serif;	
+	color: black;	
+}
+
+.nav {
+	
+    text-align: center;
+    padding-top: 0%;
+    font-weight: bold;
+    font-size: 1em;
+    }
+
+.nav a {
+	text-decoration: none;
+	border-style: outset;
+	padding: 10px 15px 10px 15px;
+	color: white;
+
+}
+
+		    nav a:visited {
+		   	color: black;
+		   }
+
+		   nav a:hover{
+		   	color: #4169E1;
+		   	border: inset 2px;
+		   	border-style: inset;
+		   	border-color: #4169E1;
+		   }
+
+		   .nav ul ul {
+	display: none;
+	position: absolute;
+
+}
+
+.nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+
+}
+
+.nav li:hover ul {
+display: block;
+padding-top: 10px;
+}
+
+.nav li:hover li {
+display: block;
+padding-top: 35px;
+}
+
+
+
+h2 {padding-top: 10em; text-align: center;}
+
+h3 {text-align: center;}
+
+
+.leftP {width: 500px; height: 200px; float: left;}
+
+.rightP {width: 500px; height: 200px; float: right;}
+
+.contact {padding-top: 15em;}
+
+form {padding: 5em 10em 5em 25em; background-color: #FFF0F5;}
+label {float: left; clear: left; display: block; width: 150px; padding-right: 2px; margin-top: 18px; text-align: right;}
+input {display: block; margin-top: 25px;}
+input[type="submit"] {margin-left: 145px;}
+
+iframe {padding-top: 1em; float: right;}
+
+.location {float: left; padding-top: 5em; padding-left: 10em;}
+
+footer {padding-top: 40em; text-align: center;}
+footer a {color: black; text-decoration: none;}
+
+
+body, header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+
+@media only screen and (max-width:64em) {
+	body {margin: 0; padding: 0;}
+	 nav { width: auto; padding-left: 0em;}
+        nav a { padding: 0,2em; margin-left: 0,3em; width: 100%; height: 100% display: block;}
+        iframe {width: 500px; height: 300px;}
+        footer {padding-top: 27em;}
+}
+
+
+
+
+@media only screen and (max-width: 37.5em) {
+	.nav a {padding: 5px 3px 5px 3px; }
+	.nav li:hover li { display: block; padding-top: 20px;}
+	header {font-size: 1em;}
+	body {height: 380px;}
+	.main {height: 300px;}
+	.leftP {float: none; }
+	 form {padding: 5em 0em 5em 3em;}
+        label {float: left; clear: left; display: block; padding-right: 5px; margin-top: 20px; text-align: right; margin-left: 5px; }
+   .location {padding-top: 2em;}
+   iframe {padding-top: 2em; padding-bottom: 2em;}
+   footer {font-size: small;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
